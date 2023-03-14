@@ -21,31 +21,27 @@
 
 <!-- Тест кейсы -->
 
-### Что проверяем
-* Поиск по выражению
-* Поиск по числу
-* Поиск по html тегу
-* Поиск по пустому полю
-* Поиск по специальным символам
+### Что проверяют тесты
+![This is an image](images/screenshots/test_cases.png)
 
 
 <!-- Jenkins -->
 
 ### <img width="3%" title="Jenkins" src="images/logo_stacks/jenkins.png">  Запуск проекта в Jenkins
-### [Job](https://jenkins.autotests.cloud/job/Mobile_Wikipedia_qa_guru_python_2/)
-##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину в Selenide.
+### [Job](https://jenkins.autotests.cloud/job/kudaev-wikipedia-mobile/)
+##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере jenkins.
 ![This is an image](images/screenshots/jenkins.png)
+
+Также мы можем посмотреть выполнение тестов в консоли перейдя во вкладку "Вывод консоли" у определенного билда
+![This is an image](images/screenshots/jenkins_console.png)
 
 
 <!-- Browserstack -->
 
-### <img width="3%" title="Browserstack" src="images/logo_stacks/browserstack.png"> Запуск проекта в [Browserstack](https://www.browserstack.com)
+### <img width="3%" title="Browserstack" src="images/logo_stacks/browserstack.png"> Запуск проекта в [Browserstack](https://app-automate.browserstack.com/dashboard/v2/builds/be982c566cce4ce727bba8deb0155db9b6cdbcb2/sessions/456557888aad153346a3d5cfb8d1ee56f4d3b642)
 ##### После запуска сборки в Jenkins, тесты начинают проходить удаленно через Browserstack. Где в реальном времени можно следить за прохождением теста через логи.
 
 ![This is an image](images/screenshots/browserstack.png)
-
-##### Для интеграции c Browserstack, в настройке сборки, в разделе .env указать необходимые креды. Пример кред, можно посмотреть в файле [.env_examples](https://github.com/surovp/Mobile_Wiki/blob/master/.env_examples)
-
 
 <!-- Allure report -->
 
@@ -68,7 +64,7 @@
 
 ### <img width="3%" title="Allure TestOps" src="images/logo_stacks/allure_testops.png"> Интеграция с Allure TestOps
 
-### [Dashboard](https://allure.autotests.cloud/project/1727/dashboards)
+### [Dashboard](https://allure.autotests.cloud/project/2027/dashboards)
 
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
 ![This is an image](images/screenshots/allure_testops_dashboard.png)
@@ -80,6 +76,9 @@
 - Добавлять ручные тесты и т.д
 
 ![This is an image](images/screenshots/allure_testops_suites.png)
+
+Во вкладке Launches мы можем видить тестовые прогоны:
+![This is an image](images/screenshots/allure_testops_launches.png)
 
 
 <!-- Jira -->
