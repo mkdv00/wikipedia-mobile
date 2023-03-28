@@ -22,7 +22,18 @@
 <!-- Тест кейсы -->
 
 ### Что проверяют тесты
-![This is an image](images/screenshots/test_cases.png)
+1. test search successfully
+2. test open article
+3. test open article categories
+4. test login with invalid data
+5. test login successfully
+
+##### Видео прохождение теста на эмуляторе
+![This is an image](images/screenshots/test-emulator-demonstration.gif)
+
+##### Видео прохождение теста в Browserstack
+![This is an image](images/screenshots/tests_mobile.gif)
+
 
 
 <!-- Jenkins -->
@@ -55,10 +66,6 @@
 
 ##### Во вкладке Suites находятся собранные тест кейсы, у которых описаны шаги и приложены логи, скриншот и видео о прохождении теста
 ![This is an image](images/screenshots/allure_suites.png)
-
-##### Видео прохождение теста
-![This is an image](images/screenshots/tests_mobile.gif)
-
 
 <!-- Allure TestOps -->
 
