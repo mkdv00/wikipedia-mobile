@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+config.browserstack.env
 .venv
 env/
 venv/
